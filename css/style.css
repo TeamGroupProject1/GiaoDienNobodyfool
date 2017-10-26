@@ -358,16 +358,37 @@ div#footer {
     clear:both;
 }
 
+/* Dịnh dạng phần footer top */
 .ft_top {
     background-color: #1a1a1a;
     display: inline-block;
+    height: 390px;
 }
 
 .col {
-    width: 25%;
+    width: 23%;
     float: left;
+    padding-left:20px;
 }
 
+p.title_ft {
+    color: #fff;
+}
+
+p.title_center {
+    color: #999999;
+    font-size: 16px;
+}
+
+div.col>ul>li>a {
+    color: #0099ff;
+}
+
+li {
+    list-style: none;
+}
+
+/* Định dạng phần footer bottom */
 .ft_bottom {
     background-color: #222222;
     clear: both;
@@ -375,7 +396,24 @@ div#footer {
     border-top: 1px solid #2d2d2d;
     display: inline-block;
     width: 100%;
+    color:#666666;
+    height:61px;
+}
+
+.ft_lf {
+    width: 60%;
+    color: #666666;
+    float: left;
+    padding-left:20px;
+    line-height: 61px
 }
 
 
-
+.ft_rg {
+    display: block;
+    width: 30%;
+    float: right;
+    line-height:61px;
+    text-align: right;
+    padding-right: 20px;
+}
