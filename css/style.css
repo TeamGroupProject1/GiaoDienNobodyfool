@@ -363,29 +363,125 @@ div#footer {
     background-color: #1a1a1a;
     display: inline-block;
     height: 390px;
+    border-top:5px solid #000000;
 }
 
 .col {
-    width: 23%;
+    width: 22%;
     float: left;
     padding-left:20px;
 }
 
 p.title_ft {
     color: #fff;
+    display: block;
+    margin: 0;
+    padding-top: 45px;
+    padding-bottom:23px;
 }
 
 p.title_center {
     color: #999999;
-    font-size: 16px;
+    font-size: 13px;
+    margin: 0;
+    padding-top: 22px;
 }
 
 div.col>ul>li>a {
     color: #0099ff;
+    text-decoration:none;
+    font-size: 12px;
+    display: block;
+    border-top: 1px solid rgba(204, 204, 204, 0.08);
+    padding: 4px 0 4px 4px;
+}
+
+div.col>ul>li>a:hover {
+    text-decoration: underline;
+}
+
+.col>ul>li>a>span {
+	color: #989898;
+	padding-right: 9px;
 }
 
 li {
     list-style: none;
+}
+
+.title_center > a {
+    text-align: left;
+}
+
+p.title_center>a {
+    float: right;
+    text-decoration: none;
+}
+
+a.ft_link {
+    float: right;
+    color: #0099ff;
+    text-decoration: none;
+    padding-top:14px;
+    font-size:13px;
+}
+
+p.title_center.left {
+    padding-top: 0px;
+}
+
+span.bl_1 {
+    font-size: 17px;
+    font-weight: bold;
+    display: block;
+}
+
+span.bl_1a {
+    font-size: 11px;
+    display: block;
+    padding-bottom: 10px;
+    font-style: italic;
+}
+
+span.bl_2 {
+    display: block;
+    font-size:13px;
+}
+
+.col3_top {
+    display: block;
+    padding-bottom: 33px;
+}
+
+a.ft_link.col3:hover {
+    text-decoration: underline;
+}
+
+button.ft_btn {
+    display: block;
+    width: 77px;
+    height: 31px;
+    margin-top: 9px;
+    background-color: #0099ff;
+    border: 1px solid rgba(204, 204, 204, 0.5);
+    border-radius: 5px;
+    color:#fff;
+}
+
+input.ip {
+    display: block;
+    width: 225px;
+    height: 31px;
+    background-color: #323232;
+    border: 1px solid rgba(0, 0, 0, 0.35);
+    border-radius: 5px;
+    margin-bottom: 6px;
+    padding-left: 5px;
+    color: #989898;
+}
+
+input.ip.last {
+    height: 100px;
 }
 
 /* Định dạng phần footer bottom */
